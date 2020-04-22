@@ -3,6 +3,7 @@ body{
     font-family: 'Ubuntu';
     font-size: 1.125rem;
     font-weight: 300;
+    color: #707070;
 }
 img{
     max-width: 100%;
@@ -131,6 +132,9 @@ li{
 }
 .article-recent-secondary{
     order: 1;
+}
+.recent:last-child .article-image{
+    object-position: left ;
 }
 @media(min-width:675px){
     .container-flex{
