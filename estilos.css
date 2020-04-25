@@ -80,7 +80,8 @@ nav{
 nav a{
     text-decoration: none;
     color: #707070;
-    font-weight: 700;
+    font-weight: bold;
+    letter-spacing: 3.2px;
     padding: .25em 0;
 }
 nav a:hover, nav a:focus{
@@ -135,6 +136,9 @@ li{
 }
 .recent:last-child .article-image{
     object-position: left ;
+}
+.main-about p:last-child{
+    margin-bottom: 6em;
 }
 @media(min-width:675px){
     .container-flex{
